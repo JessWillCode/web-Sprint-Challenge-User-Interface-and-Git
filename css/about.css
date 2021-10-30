@@ -122,9 +122,7 @@ p {
 .middle-area {
     width:100%;
     display:flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    align-content: space-around;
+    justify-content: space-between;
 }
 
  .strategy, .how-we-work, .places-we-work, .collaboration, .text { 
@@ -140,13 +138,19 @@ p {
 .top-section {
     display:flex;
     justify-content: space-between;
+    align-self:flex-start;
+}
+
+.top-section2 {
+    display:flex;
+    justify-content: space-between;
     align-self:flex-end
 }
 
 .text {
     padding:5%;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     text-align:center;
 }
 
